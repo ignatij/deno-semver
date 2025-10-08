@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/ignatij/deno-semver/compare/v1.0.0...v1.0.1) (2025-10-08)
+
+
+### Bug Fixes
+
+* fix subtract ([4a2cd30](https://github.com/ignatij/deno-semver/commit/4a2cd3078fda4e0c5f89013b08320c7163c4a32e))
+
 # 1.0.0 (2025-10-08)
 
 
