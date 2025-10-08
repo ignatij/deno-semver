@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/ignatij/deno-semver/compare/v1.0.1...v1.1.0) (2025-10-08)
+
+
+### Features
+
+* add multiply op ([1097d07](https://github.com/ignatij/deno-semver/commit/1097d0758a8f93bc5b38498e2f303534c070a292))
+
 ## [1.0.1](https://github.com/ignatij/deno-semver/compare/v1.0.0...v1.0.1) (2025-10-08)
 
 
