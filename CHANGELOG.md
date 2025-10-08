@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/ignatij/deno-semver/compare/v1.1.0...v1.1.1) (2025-10-08)
+
+
+### Bug Fixes
+
+* fix multiply op ([bc45b94](https://github.com/ignatij/deno-semver/commit/bc45b948cbdfec61f1be819be17b29d50a3858cf))
+
 # [1.1.0](https://github.com/ignatij/deno-semver/compare/v1.0.1...v1.1.0) (2025-10-08)
 
 
