@@ -5,6 +5,7 @@
     "jsr:@std/internal@^1.0.12": "1.0.12",
     "npm:@semantic-release/changelog@^6.0.3": "6.0.3_semantic-release@24.2.9__marked@15.0.12",
     "npm:@semantic-release/commit-analyzer@^13.0.1": "13.0.1_semantic-release@24.2.9__marked@15.0.12",
+    "npm:@semantic-release/exec@^7.1.0": "7.1.0_semantic-release@24.2.9__marked@15.0.12",
     "npm:@semantic-release/git@^10.0.1": "10.0.1_semantic-release@24.2.9__marked@15.0.12",
     "npm:@semantic-release/release-notes-generator@^14.1.0": "14.1.0_semantic-release@24.2.9__marked@15.0.12",
     "npm:semantic-release@*": "24.2.9_marked@15.0.12",
@@ -192,6 +193,18 @@
     },
     "@semantic-release/error@4.0.0": {
       "integrity": "sha512-mgdxrHTLOjOddRVYIYDo0fR3/v61GNN1YGkfbrjuIKg/uMgCd+Qzo3UAXJ+woLQQpos4pl5Esuw5A7AoNlzjUQ=="
+    },
+    "@semantic-release/exec@7.1.0_semantic-release@24.2.9__marked@15.0.12": {
+      "integrity": "sha512-4ycZ2atgEUutspPZ2hxO6z8JoQt4+y/kkHvfZ1cZxgl9WKJId1xPj+UadwInj+gMn2Gsv+fLnbrZ4s+6tK2TFQ==",
+      "dependencies": [
+        "@semantic-release/error@4.0.0",
+        "aggregate-error@3.1.0",
+        "debug",
+        "execa@9.6.0",
+        "lodash-es",
+        "parse-json@8.3.0",
+        "semantic-release@24.2.9_marked@15.0.12"
+      ]
     },
     "@semantic-release/git@10.0.1_semantic-release@24.2.9__marked@15.0.12": {
       "integrity": "sha512-eWrx5KguUcU2wUPaO6sfvZI0wPafUKAMNC18aXY4EnNcrZL86dEmpNVnC9uMpGZkmZJ9EfCVJBQx4pV4EMGT1w==",
@@ -1641,6 +1654,7 @@
       "jsr:@std/assert@1",
       "npm:@semantic-release/changelog@^6.0.3",
       "npm:@semantic-release/commit-analyzer@^13.0.1",
+      "npm:@semantic-release/exec@^7.1.0",
       "npm:@semantic-release/git@^10.0.1",
       "npm:@semantic-release/release-notes-generator@^14.1.0",
       "npm:semantic-release@^24.2.9"
